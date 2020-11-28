@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "WDS Course Video Autoplay",
+    "description": "Extension to autoplay the next video in Web Dev Simplified's course",
+    "version" : "0.1.0",
+    "content_scripts": [
+        {
+            "matches": ["https://courses.webdevsimplified.com/courses/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
