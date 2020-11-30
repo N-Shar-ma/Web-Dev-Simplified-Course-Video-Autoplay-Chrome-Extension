@@ -19,5 +19,5 @@ function storeData () {
         autoplay: inputs[0].checked,
         delay: inputs[1].valueAsNumber
     }
-    chrome.storage.sync.set({ "WDSCourseAutoplay": data})
+    chrome.storage.sync.set({ "WDSCourseAutoplay": data })
 }
